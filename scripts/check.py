@@ -41,6 +41,8 @@ def main():
             if v.get("version") in seen:
                 err.append(f"{vw}: версия повторяется")
             seen.add(v.get("version"))
+            if not isinstance(v.get("name"), str) or not v["name"].strip():
+                err.append(f"{vw}: name — название выпуска, непустая строка")
             if v.get("channel") not in ("stable", "prerelease"):
                 err.append(f"{vw}: channel — stable или prerelease")
             if not DATE.match(str(v.get("date", ""))):

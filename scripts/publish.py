@@ -77,6 +77,7 @@ def update_json(path, a, assets, tag):
                                                "prerelease": None, "versions": []})
     entry = {
         "version": a.version,
+        "name": a.name or f"{title} {a.version}",
         "channel": a.channel,
         "date": a.date,
         "tag": tag,
@@ -113,6 +114,7 @@ def main():
     ap.add_argument("--mirror", action="append", default=[],
                     help="база зеркала: к ней дописывается /<имя файла>; можно несколько")
     ap.add_argument("--date", default=dt.date.today().isoformat())
+    ap.add_argument("--name", help="название выпуска, как у выпуска проекта («26.9 Andromeda»)")
     ap.add_argument("--no-push", action="store_true", help="коммит без push (проверка руками)")
     a = ap.parse_args()
 
@@ -123,7 +125,7 @@ def main():
         sys.exit(f"publish: в {a.assets} нет файлов")
 
     tag = f"{a.product}-v{a.version}"
-    title = f"{PRODUCTS[a.product][0]} {a.version}" + (" (предварительный)" if a.channel == "prerelease" else "")
+    title = a.name or (f"{PRODUCTS[a.product][0]} {a.version}" + (" (предварительный)" if a.channel == "prerelease" else ""))
     paths = [os.path.join(a.assets, f) for f in files]
     exists = run("gh", "release", "view", tag, "--repo", REPO, check=False, capture=True).returncode == 0
     if exists:
