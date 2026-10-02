@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-02T10:17:21Z",
+ "updated": "2026-10-02T10:17:28Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
@@ -1114,6 +1114,51 @@
        "urls": [
         "https://github.com/splify2/releases/releases/download/steer-v1.5.7/steer-obfs-1.5.7-x86_64.tar.gz",
         "https://github.com/splify2/steer/releases/download/v1.5.7/steer-obfs-1.5.7-x86_64.tar.gz"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "splify2": {
+   "title": "splify2",
+   "repo": "splify2/splify2",
+   "stable": "26.9.1",
+   "prerelease": null,
+   "versions": [
+    {
+     "version": "26.9.1",
+     "channel": "stable",
+     "date": "2026-09-22",
+     "tag": "splify2-v26.9.1",
+     "source": "https://github.com/splify2/splify2/releases/tag/v26.9.1",
+     "changelog": "changelogs/splify2/26.9.1.md",
+     "assets": [
+      {
+       "name": "install.sh",
+       "size": 31123,
+       "sha256": "57f5d074a52d690b511587ac183e9c184d8abedb333d29fe3c0292395f96ee01",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.9.1/install.sh",
+        "https://github.com/splify2/splify2/releases/download/v26.9.1/install.sh"
+       ]
+      },
+      {
+       "name": "luci-app-splify2-26.9.1-1_all.ipk",
+       "size": 502992,
+       "sha256": "84a4d20564082e50823b2b0146467a126c14c397940d1a9628320e9e933d937e",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.9.1/luci-app-splify2-26.9.1-1_all.ipk",
+        "https://github.com/splify2/splify2/releases/download/v26.9.1/luci-app-splify2-26.9.1-1_all.ipk"
+       ]
+      },
+      {
+       "name": "luci-app-splify2-26.9.1-1_noarch.apk",
+       "size": 496539,
+       "sha256": "c43d5ddfa5d189b65c38e0acd32954aa7d42056885daf479a7a8e1e22b6c87cf",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.9.1/luci-app-splify2-26.9.1-1_noarch.apk",
+        "https://github.com/splify2/splify2/releases/download/v26.9.1/luci-app-splify2-26.9.1-1_noarch.apk"
        ]
       }
      ]
