@@ -56,10 +56,17 @@ def sha256(path):
 
 
 def vkey(v):
-    """Порядок версий: числа по частям, предварительная (с «-») — раньше той же без суффикса."""
+    """Порядок по строке версии: числа по частям, предварительная (с «-») — раньше той же без
+    суффикса. Суффиксы предварительных между собой НЕ сравниваются: у коннектора это хеш коммита
+    (2.0.0-pre.79788be), и строковый порядок шёл бы по хешу, а не по времени."""
     base, _, pre = v.partition("-")
     nums = [int(x) if x.isdigit() else 0 for x in base.split(".")]
-    return (nums, 0 if pre else 1, pre)
+    return (nums, 0 if pre else 1)
+
+
+def ekey(e, current):
+    """Порядок записей: версия, затем дата, а при равенстве — та, что публикуется сейчас."""
+    return (vkey(e["version"]), e["date"], e["version"] == current)
 
 
 def update_json(path, a, assets, tag):
@@ -78,7 +85,7 @@ def update_json(path, a, assets, tag):
         "assets": assets,
     }
     vs = [v for v in p["versions"] if v["version"] != a.version] + [entry]
-    vs.sort(key=lambda v: vkey(v["version"]), reverse=True)
+    vs.sort(key=lambda v: ekey(v, a.version), reverse=True)
     stable = [v for v in vs if v["channel"] == "stable"]
     p["stable"] = stable[0]["version"] if stable else None
     # Предварительная показывается, только пока она новее стабильной: вышла 2.0.0 — pre 2.0.0
