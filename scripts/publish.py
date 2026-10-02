@@ -161,6 +161,12 @@ def main():
             return
         if run("git", "push", "-q", check=False).returncode == 0:
             print(f"publish: {tag} опубликован")
+            # Сайт (splify2.github.io/releases/) и сам сверяет version.json раз в час; толчок —
+            # чтобы выпуск появился сразу. Нужен доступ токена к splify2/splify2.github.io; без
+            # него сайт догонит по расписанию, публикация от этого не проваливается.
+            if run("gh", "api", "-X", "POST", "repos/splify2/splify2.github.io/dispatches",
+                   "-f", "event_type=releases", check=False, capture=True).returncode != 0:
+                print("publish: сайт пересоберётся по расписанию (нет доступа к splify2.github.io)")
             return
         # Кто-то опубликовал свой выпуск раньше: берём его version.json и пишем свою версию заново.
         run("git", "reset", "-q", "--hard", "HEAD~1")
