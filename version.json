@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-02T10:17:52Z",
+ "updated": "2026-10-02T10:18:01Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
@@ -1205,9 +1205,73 @@
   "xsteer": {
    "title": "xsteer",
    "repo": "splify2/xsteer",
-   "stable": "1.4.2",
+   "stable": "1.4.3",
    "prerelease": null,
    "versions": [
+    {
+     "version": "1.4.3",
+     "channel": "stable",
+     "date": "2026-09-22",
+     "tag": "xsteer-v1.4.3",
+     "source": "https://github.com/splify2/xsteer/releases/tag/v1.4.3",
+     "changelog": "changelogs/xsteer/1.4.3.md",
+     "assets": [
+      {
+       "name": "SHA256SUMS",
+       "size": 457,
+       "sha256": "ab69c4753c548515095aff702921245c28050f262c0608b9615b34ae5ca5538d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/xsteer-v1.4.3/SHA256SUMS",
+        "https://github.com/splify2/xsteer/releases/download/v1.4.3/SHA256SUMS"
+       ]
+      },
+      {
+       "name": "xsteer-android-1.4.3.apk",
+       "size": 18890655,
+       "sha256": "7b7f8d7943a4eca2a151c7eb9d8b9b232ebc09cafb5026e5bbd3452b316f9577",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/xsteer-v1.4.3/xsteer-android-1.4.3.apk",
+        "https://github.com/splify2/xsteer/releases/download/v1.4.3/xsteer-android-1.4.3.apk"
+       ]
+      },
+      {
+       "name": "xsteer-linux-amd64.tar.gz",
+       "size": 1763952,
+       "sha256": "6691c4f44a6358b6191a3895bc18b592e180d5563b676911d66ae6f99fc5b170",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/xsteer-v1.4.3/xsteer-linux-amd64.tar.gz",
+        "https://github.com/splify2/xsteer/releases/download/v1.4.3/xsteer-linux-amd64.tar.gz"
+       ]
+      },
+      {
+       "name": "xsteer-linux-arm64.tar.gz",
+       "size": 1588176,
+       "sha256": "784d65d2a1bb2e3dd164b2c9f0fc960ce2a4324db8ba69a37e0f7d00230e381c",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/xsteer-v1.4.3/xsteer-linux-arm64.tar.gz",
+        "https://github.com/splify2/xsteer/releases/download/v1.4.3/xsteer-linux-arm64.tar.gz"
+       ]
+      },
+      {
+       "name": "xsteer-windows-amd64.zip",
+       "size": 4498075,
+       "sha256": "f07e34577716243d09e7ae3b6c45638569d47430393df8e5cacc14289a5a946b",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/xsteer-v1.4.3/xsteer-windows-amd64.zip",
+        "https://github.com/splify2/xsteer/releases/download/v1.4.3/xsteer-windows-amd64.zip"
+       ]
+      },
+      {
+       "name": "xsteer-windows-arm64.zip",
+       "size": 1678346,
+       "sha256": "3c3cabdef4ccc6e4e49711cd90ffab581847fd3d80dff6c7e5bc3b48125390d0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/xsteer-v1.4.3/xsteer-windows-arm64.zip",
+        "https://github.com/splify2/xsteer/releases/download/v1.4.3/xsteer-windows-arm64.zip"
+       ]
+      }
+     ]
+    },
     {
      "version": "1.4.2",
      "channel": "stable",
