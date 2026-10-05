@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-05T10:59:56Z",
+ "updated": "2026-10-05T11:22:38Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
@@ -7074,9 +7074,47 @@
   "splify2": {
    "title": "splify2",
    "repo": "splify2/splify2",
-   "stable": "26.10.1",
+   "stable": "26.10.2",
    "prerelease": null,
    "versions": [
+    {
+     "version": "26.10.2",
+     "name": "26.10.2 Bode",
+     "channel": "stable",
+     "date": "2026-10-05",
+     "tag": "splify2-v26.10.2",
+     "source": "https://github.com/splify2/splify2/releases/tag/v26.10.2",
+     "changelog": "changelogs/splify2/26.10.2.md",
+     "assets": [
+      {
+       "name": "install.sh",
+       "size": 48480,
+       "sha256": "8f65f9fd88ae5181a7f5cb6dcaffc888445dcc52882f58c461c061ab6236a56b",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.10.2/install.sh",
+        "https://github.com/splify2/splify2/releases/download/v26.10.2/install.sh"
+       ]
+      },
+      {
+       "name": "luci-app-splify2-26.10.2-1_all.ipk",
+       "size": 514505,
+       "sha256": "db8ad1285961903d541b9915111c20af758765921511d7ddfebe1cba68cce1e0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.10.2/luci-app-splify2-26.10.2-1_all.ipk",
+        "https://github.com/splify2/splify2/releases/download/v26.10.2/luci-app-splify2-26.10.2-1_all.ipk"
+       ]
+      },
+      {
+       "name": "luci-app-splify2-26.10.2-1_noarch.apk",
+       "size": 510556,
+       "sha256": "bfa90db0c8d5e3176fb72a877a4e9e5d9000cf507393b324108fc5c372025a05",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.10.2/luci-app-splify2-26.10.2-1_noarch.apk",
+        "https://github.com/splify2/splify2/releases/download/v26.10.2/luci-app-splify2-26.10.2-1_noarch.apk"
+       ]
+      }
+     ]
+    },
     {
      "version": "26.10.1",
      "name": "26.10.1 Bode",
