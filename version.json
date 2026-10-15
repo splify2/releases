@@ -1,13 +1,1680 @@
 {
  "schema": 1,
- "updated": "2026-10-15T05:15:27Z",
+ "updated": "2026-10-15T08:41:51Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
    "repo": "splify2/steer",
-   "stable": "2.0.5",
+   "stable": "2.1.0",
    "prerelease": null,
    "versions": [
+    {
+     "version": "2.1.0",
+     "name": "steer 2.1.0",
+     "channel": "stable",
+     "date": "2026-10-15",
+     "tag": "steer-v2.1.0",
+     "source": "https://github.com/splify2/steer/releases/tag/v2.1.0",
+     "changelog": "changelogs/steer/2.1.0.md",
+     "assets": [
+      {
+       "name": "steer-core-2.1.0-1_aarch64_cortex-a53.apk",
+       "size": 1185537,
+       "sha256": "02715a78f8b6a388b71394307f1ee2178ba4d00157b938bcb4bf08c2225a924b",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_aarch64_cortex-a53.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_aarch64_cortex-a53.apk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_aarch64_cortex-a53.ipk",
+       "size": 1188269,
+       "sha256": "b5fdb66a9591c066253a84727ccb56fd502950e7b71f2edd99b6fae51c49d5a2",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_aarch64_cortex-a53.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_aarch64_cortex-a53.ipk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_aarch64_cortex-a72.apk",
+       "size": 1132749,
+       "sha256": "e55d3d3c354201495b3661bd74124ff9aa034b9e41a73e201dfe82526e6e544c",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_aarch64_cortex-a72.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_aarch64_cortex-a72.apk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_aarch64_cortex-a72.ipk",
+       "size": 1135474,
+       "sha256": "25c3385b0d09b415e9c2b9faf7051f9e27d56f94341d6dab6409c2057fded2dc",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_aarch64_cortex-a72.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_aarch64_cortex-a72.ipk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_aarch64_generic.apk",
+       "size": 1134704,
+       "sha256": "80a07d8836c2d0fa64bb6d530b5de6d625d9163462e0dfbbbcd319603142df0e",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_aarch64_generic.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_aarch64_generic.apk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_aarch64_generic.ipk",
+       "size": 1137792,
+       "sha256": "552a4b8002d4ba31936b5c42cedb75f397776698b5650815d34f53d89dbb29b8",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_aarch64_generic.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_aarch64_generic.ipk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+       "size": 1105245,
+       "sha256": "722c436075086b28c2a9a454a550c6e5965baa94a6484a5f1e630e7a0ece3836",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+       "size": 1107088,
+       "sha256": "1725b29e59d9d957f9c62143939c9b623294a923c6988b5dfee3d2def563824e",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_arm_cortex-a9.apk",
+       "size": 1103039,
+       "sha256": "ce08ffd924db11d95c7f7d9989a6e11af76212f5a33c9f15a21519262ecf4ae0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_arm_cortex-a9.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_arm_cortex-a9.apk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_arm_cortex-a9.ipk",
+       "size": 1106132,
+       "sha256": "cb4cf161f7b6d297a3766d6ded4d96470851302cff4adeff32f021f8e98a220e",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_arm_cortex-a9.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_arm_cortex-a9.ipk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_arm_cortex-a9_neon.apk",
+       "size": 1103000,
+       "sha256": "56a0bf0ae392094b7e70f40dbe26636463c4c7697916888969ce0bdfcabeac36",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_arm_cortex-a9_neon.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_arm_cortex-a9_neon.apk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_arm_cortex-a9_neon.ipk",
+       "size": 1105924,
+       "sha256": "78c1027cc6fb1eb4ee88c5e8a5ea8179f9dc94a102a65dcdf21226853b9ea7e1",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_arm_cortex-a9_neon.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_arm_cortex-a9_neon.ipk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+       "size": 1103003,
+       "sha256": "3b76d8b14d906a2f34e43d61e890b20178bb36e4b262644f2573e75d7e140ce4",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+       "size": 1106131,
+       "sha256": "a211eb626a5f8181b3b39d6a98881da34b189cd9c1c9f42c43b3275c0174f516",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_mips_24kc.apk",
+       "size": 1192183,
+       "sha256": "e13a00af67cb6836c02091d6b847ad46d36411caca493f7355951e2c182da662",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_mips_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_mips_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_mips_24kc.ipk",
+       "size": 1199089,
+       "sha256": "342e39eccf763fe89030d2adb6851fced4768d08b44ffd224a5b3573d4a540bd",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_mips_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_mips_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_mipsel_24kc.apk",
+       "size": 1188252,
+       "sha256": "22686495fd0d2a7ce95c0868f735c90280eebff956deac1f48f2b0e569dcae90",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_mipsel_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_mipsel_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_mipsel_24kc.ipk",
+       "size": 1191553,
+       "sha256": "de3f7d083c39b8b4e0a8516f044427f18f00186c314d4afb676fae23ede85c0b",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_mipsel_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_mipsel_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_x86_64.apk",
+       "size": 1136325,
+       "sha256": "61ffc3909f77f5104b4fc6e8bc15b7e3bdf3c448fda01e623a550c122a30f008",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_x86_64.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_x86_64.apk"
+       ]
+      },
+      {
+       "name": "steer-core-2.1.0-1_x86_64.ipk",
+       "size": 1139497,
+       "sha256": "298e8a5a672ef8b36372daf67c1e09f6fe1899aeafdf09a0017ddb4a9141a9e0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-core-2.1.0-1_x86_64.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-core-2.1.0-1_x86_64.ipk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_aarch64_cortex-a53.apk",
+       "size": 631,
+       "sha256": "6a7007c094df25cab712cc2fc0f611b2457c43236bbad00ada60b84c70e4acfb",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_aarch64_cortex-a53.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_aarch64_cortex-a53.apk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_aarch64_cortex-a53.ipk",
+       "size": 1007,
+       "sha256": "12a947bb033924539ef5ba0ddff075ba9fc7b2d300aed0a82335df828140429b",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_aarch64_cortex-a53.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_aarch64_cortex-a53.ipk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_aarch64_cortex-a72.apk",
+       "size": 634,
+       "sha256": "07ff45c03c168a4f4dc75bbbe0302e8d06e716c0880b3233dbbadc312fdd4d41",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_aarch64_cortex-a72.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_aarch64_cortex-a72.apk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_aarch64_cortex-a72.ipk",
+       "size": 1014,
+       "sha256": "c91fea7151aa0ee517cac34e16d2aebeccf2f25be73d01fe6206277073ae96b3",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_aarch64_cortex-a72.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_aarch64_cortex-a72.ipk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_aarch64_generic.apk",
+       "size": 633,
+       "sha256": "89c84422eea1fe23577d518604a62c2b6024812490f2a0ee84ad397f57aae429",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_aarch64_generic.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_aarch64_generic.apk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_aarch64_generic.ipk",
+       "size": 1007,
+       "sha256": "afd15addf38ee81aeaac1143a5d427df2963e6c1e87663706d337647d336fa02",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_aarch64_generic.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_aarch64_generic.ipk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+       "size": 637,
+       "sha256": "249a1b8f9e3f69bd631c3760e85673caabe501fcc07253c53bed7f560bf5c305",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+       "size": 1013,
+       "sha256": "972f331688190dd36d6fc88fed52413b9b96614ebfe8a91842aba079f715b8fe",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_arm_cortex-a9.apk",
+       "size": 629,
+       "sha256": "de43d0aefd37d2641c326d5703450f62f0f66addc8794a012fb65acb00655d98",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9.apk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_arm_cortex-a9.ipk",
+       "size": 1010,
+       "sha256": "29520e87c33be55c3aad575bd7d5ffe286b3fb25beafa6bdbf5f5b7701e98b7a",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9.ipk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_arm_cortex-a9_neon.apk",
+       "size": 629,
+       "sha256": "d01f57545337161040a64cfc6ff6317b6fc97671dcbe59ef684417a944bebed5",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9_neon.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9_neon.apk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_arm_cortex-a9_neon.ipk",
+       "size": 1010,
+       "sha256": "4a732e352cede9ba51274d57c1da593ea2f125138f63189a20dbf72b3dfcb174",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9_neon.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9_neon.ipk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+       "size": 638,
+       "sha256": "9b1e25f0e7b7f2f3617c446d6fc5a3cd594086f00bcbfc59d1e0c5fcab59966e",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+       "size": 1015,
+       "sha256": "ecf7490b6ddd4ba18be0f7ab96bbba6c2ddf14123cbfce96f26c35214c05cf66",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_mips_24kc.apk",
+       "size": 626,
+       "sha256": "1aacd9a482af19119c5ab36a8f396eda2af8b50a30dfbe180b56dd82c6366393",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_mips_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_mips_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_mips_24kc.ipk",
+       "size": 1014,
+       "sha256": "cddd60b1e52d1f955cecdedc97110544dda35a2876e5977d24b625bb193d6cdd",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_mips_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_mips_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_mipsel_24kc.apk",
+       "size": 628,
+       "sha256": "fad2170e2d8669da0560e7027b405d61abbd338e40163d201c37523610c858ce",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_mipsel_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_mipsel_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_mipsel_24kc.ipk",
+       "size": 1007,
+       "sha256": "a74f5a6208edbf467f001c115b5f790a0102fdeabab82be7f9e6e526efcf9d5f",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_mipsel_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_mipsel_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_x86_64.apk",
+       "size": 624,
+       "sha256": "183dd2003796ef634d904bdd1dac3f364aa25685c33d4c2fcde29a4dd4d6bdde",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_x86_64.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_x86_64.apk"
+       ]
+      },
+      {
+       "name": "steer-extended-2.1.0-1_x86_64.ipk",
+       "size": 1002,
+       "sha256": "010fa5b7b37124f73ff08515a4ad2a91f9764c42ec94480097eafc04b89ef886",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-extended-2.1.0-1_x86_64.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-extended-2.1.0-1_x86_64.ipk"
+       ]
+      },
+      {
+       "name": "steer-hub-aarch64.tar.gz",
+       "size": 954870,
+       "sha256": "bdb2a842a423325dc0b88b608a7b597342592e90b33e0f5d4cb7838d86b273a2",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hub-aarch64.tar.gz",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hub-aarch64.tar.gz"
+       ]
+      },
+      {
+       "name": "steer-hub-x86_64.tar.gz",
+       "size": 922891,
+       "sha256": "432c262f30e302484c3f344129f6d6ae87a025f61aca976de85ec0f25c1aefba",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hub-x86_64.tar.gz",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hub-x86_64.tar.gz"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_aarch64_cortex-a53.apk",
+       "size": 44437,
+       "sha256": "7f10450ce14dba5947aaa53f313dc183b2df1da0882045f2035b45e678d4acc9",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_aarch64_cortex-a53.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_aarch64_cortex-a53.apk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_aarch64_cortex-a53.ipk",
+       "size": 44569,
+       "sha256": "8860d484394a918227b6c5dd98767287c8b6367b19ca8dbdb8dec60983968e54",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_aarch64_cortex-a53.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_aarch64_cortex-a53.ipk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_aarch64_cortex-a72.apk",
+       "size": 42862,
+       "sha256": "4fa36436da7ff0e6a3940f624a8a9a8860d036dea22b5d898e4a16ef64513d45",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_aarch64_cortex-a72.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_aarch64_cortex-a72.apk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_aarch64_cortex-a72.ipk",
+       "size": 43000,
+       "sha256": "9227af1b608f7a4ce4459f4862bce3a70df2d85b45481b6c7b7ee586a6d96706",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_aarch64_cortex-a72.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_aarch64_cortex-a72.ipk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_aarch64_generic.apk",
+       "size": 42522,
+       "sha256": "4804a905e9912a14b0f42df0f63d1b6a935de32f956376fba896f7f4e45b6aa7",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_aarch64_generic.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_aarch64_generic.apk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_aarch64_generic.ipk",
+       "size": 42656,
+       "sha256": "46122253ef452fe952cdf905dd52eeb34189315f54bd510388752a0d570f2038",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_aarch64_generic.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_aarch64_generic.ipk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+       "size": 63967,
+       "sha256": "24edd0ea91df7cce31714417258e0a3fc737c0e4c6f4fa67b0f670fee45839cb",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+       "size": 64582,
+       "sha256": "eee377f950efd7e3edb656e0c00f88bb1bd451ca72c7304e2f7377f44a2016c1",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_arm_cortex-a9.apk",
+       "size": 64142,
+       "sha256": "323d0b5946d528dccb52e656d64986fc00c721df3a8f7a519efc47f90af63bdb",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9.apk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_arm_cortex-a9.ipk",
+       "size": 64750,
+       "sha256": "fe8161b99dacfc9414b2f6687e80a4098fab25a42e3a318dbcf9ca1b0fe8b2f3",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9.ipk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_arm_cortex-a9_neon.apk",
+       "size": 64128,
+       "sha256": "126728a30e4ed58244bbe0c6b0c7f8430b296fe15e2424f2ef3665ee208b49d0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9_neon.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9_neon.apk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_arm_cortex-a9_neon.ipk",
+       "size": 64760,
+       "sha256": "a826889bcdfd8f763676ead5b332cb9ecfe9c83c7d0916b2430a2a6e93c8cdb4",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9_neon.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9_neon.ipk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+       "size": 64135,
+       "sha256": "fef8ea09bb8758f34b3a6c63e058cc40ab68dd669c24062cd5b081e09daf9c16",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+       "size": 64770,
+       "sha256": "6fa0e98fb7734bf74897513c9407c2658a708b3f6244189d7604fdb3abc766e3",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_mips_24kc.apk",
+       "size": 84017,
+       "sha256": "e280a3ce6457505af99b45eb94eb9e3c1e90e8b2baf3184dfee8eaf46bbde151",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_mips_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_mips_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_mips_24kc.ipk",
+       "size": 84872,
+       "sha256": "675bf727f9a2713012bd16c9880c996be569761c3546d7ee3c0382c5e058d004",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_mips_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_mips_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_mipsel_24kc.apk",
+       "size": 83545,
+       "sha256": "13dd887c5614a9da75d75f9935c4ca39cab556a6728a2dd8fd3d3fcbeb3e22fe",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_mipsel_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_mipsel_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_mipsel_24kc.ipk",
+       "size": 84384,
+       "sha256": "84a559e806bcd03e6acca8f5a6a31e11a763c94310f3d1eb1c9916f0277737c5",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_mipsel_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_mipsel_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_x86_64.apk",
+       "size": 44557,
+       "sha256": "34440b15d001180024d91c3751bdf47f9c7640aa263e587d9a53257bf284c4bf",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_x86_64.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_x86_64.apk"
+       ]
+      },
+      {
+       "name": "steer-hysteria2-2.1.0-1_x86_64.ipk",
+       "size": 44743,
+       "sha256": "05c12917d562a787b5c393b07e6ec244c6c0bd357cc0fe4457e3cb69d8b2caa3",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-hysteria2-2.1.0-1_x86_64.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-hysteria2-2.1.0-1_x86_64.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_aarch64_cortex-a53.apk",
+       "size": 6374,
+       "sha256": "4e977f663d1a1f2cd8bd02c85f6b1e6bc8016fd51f6fe8046c8773ea8baa3673",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_aarch64_cortex-a53.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_aarch64_cortex-a53.apk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_aarch64_cortex-a53.ipk",
+       "size": 6865,
+       "sha256": "931fd14a2439b0713b7021124f0c3fd8b4fdeda5138ed65a449a85ace62e4382",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_aarch64_cortex-a53.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_aarch64_cortex-a53.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_aarch64_cortex-a72.apk",
+       "size": 6361,
+       "sha256": "4e47b1f69f85d5772b4e70227b07658ed33497366b8f0acd4f40431924ed9f24",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_aarch64_cortex-a72.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_aarch64_cortex-a72.apk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_aarch64_cortex-a72.ipk",
+       "size": 6855,
+       "sha256": "6abc56eecc79101ab84e50ee11bb6174490b33d6a8b5c5d2b549d66488133afd",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_aarch64_cortex-a72.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_aarch64_cortex-a72.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_aarch64_generic.apk",
+       "size": 6356,
+       "sha256": "0e35a2dd47e47ada0884b0d58c4e314bf32cfa7e1e83ae756f0196ee6563f9bb",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_aarch64_generic.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_aarch64_generic.apk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_aarch64_generic.ipk",
+       "size": 6853,
+       "sha256": "a6be082337cfd23c040f9b375ef91c625448d9edb61223fda039f18c68955e9e",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_aarch64_generic.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_aarch64_generic.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+       "size": 25853,
+       "sha256": "78461c619a47f3e34316cb79d94567736d3ef1aea28edb42d315455f9c9c5a49",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+       "size": 26279,
+       "sha256": "506c591bfdf9d44d515b173a84e8fea41ba04c6ec46209429e8593d583b3a1bd",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_arm_cortex-a9.apk",
+       "size": 25894,
+       "sha256": "4973025016349eeaa8116b3d8e231eab63aeb49ef59d17a6bf166c354a5c498f",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9.apk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_arm_cortex-a9.ipk",
+       "size": 26343,
+       "sha256": "03ab7cab263200d30e216644934d51eddcd4cef6fb491f99173e50981ab16920",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_arm_cortex-a9_neon.apk",
+       "size": 25892,
+       "sha256": "b1878d398ece6f7357542f865b4f1a7e0a8cc5a089318ea31ab07636d57fb492",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9_neon.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9_neon.apk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_arm_cortex-a9_neon.ipk",
+       "size": 26325,
+       "sha256": "af9632fc015b05f36652ca4b125d16b95b3bed406d15fcf79af6347e38371377",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9_neon.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9_neon.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+       "size": 25895,
+       "sha256": "abe71dd0597a164247fbc47ce94eda8c4107fbd914d6fad40be7c5a4f671e33c",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+       "size": 26323,
+       "sha256": "967a1e0af91061a0dcf0e7e8d7eb5203e023774b4c5b240d43e205ecf34176ec",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_mips_24kc.apk",
+       "size": 5719,
+       "sha256": "fda5d122fbb2851706c471ad2732126de842d7b8cbc70e11ec3c8e9b74f9ada8",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_mips_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_mips_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_mips_24kc.ipk",
+       "size": 6237,
+       "sha256": "b510d48d81cb9f9c1365f85052f05b717cc35257cedce71977c1b66544221295",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_mips_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_mips_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_mipsel_24kc.apk",
+       "size": 5676,
+       "sha256": "5efd61c2dc79942cc4f49e319f114562437a4e0a75e2c84e36d64120bc9139f3",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_mipsel_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_mipsel_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_mipsel_24kc.ipk",
+       "size": 6172,
+       "sha256": "fe2c0d1352216283e7cc525dcbc9c3ca3c02b93ff2ac7cad328bb3c64be5d4dd",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_mipsel_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_mipsel_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_x86_64.apk",
+       "size": 6812,
+       "sha256": "845243a17b0df4b8776405838b289c916e6fdcab6489c033a3e9e5b359c1a4d4",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_x86_64.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_x86_64.apk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-1_x86_64.ipk",
+       "size": 7294,
+       "sha256": "8de12713befe6f91859aaa737f5942fe15100a39e794e5c8834cee4a8d021d68",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-1_x86_64.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-1_x86_64.ipk"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-aarch64.tar.gz",
+       "size": 527757,
+       "sha256": "91bd4d6432ee335a5d9f904f964b2848b8ef7ab611439d8aacd5baf8f4a72550",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-aarch64.tar.gz",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-aarch64.tar.gz"
+       ]
+      },
+      {
+       "name": "steer-obfs-2.1.0-x86_64.tar.gz",
+       "size": 519846,
+       "sha256": "95100ef468808bf8f49041e89e4f19d7b00190ea048dc8d87918f6dcb7dcc200",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-obfs-2.1.0-x86_64.tar.gz",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-obfs-2.1.0-x86_64.tar.gz"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_aarch64_cortex-a53.apk",
+       "size": 31256,
+       "sha256": "3482d8e42e3ff4cf32e422276abc6059fcf6e00894819d17a6538f1afb64540a",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_aarch64_cortex-a53.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_aarch64_cortex-a53.apk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_aarch64_cortex-a53.ipk",
+       "size": 31358,
+       "sha256": "1a763902329c40e2996c7209e658d4c00e638ee02e3a6b54ed29d116559d95f7",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_aarch64_cortex-a53.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_aarch64_cortex-a53.ipk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_aarch64_cortex-a72.apk",
+       "size": 30843,
+       "sha256": "326d77700988820bf3bedf894f967f2ad16a2de49fa2b6c5a3469118af5053dc",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_aarch64_cortex-a72.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_aarch64_cortex-a72.apk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_aarch64_cortex-a72.ipk",
+       "size": 30993,
+       "sha256": "21b623b518154afe280e1741c6430e8221b17cdcab1b69733eddfa80977c3f27",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_aarch64_cortex-a72.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_aarch64_cortex-a72.ipk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_aarch64_generic.apk",
+       "size": 30883,
+       "sha256": "57c547db77aa60cd462dbaa5086d61b3ed6867cc16f2079ea4d5ec94ee79fb67",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_aarch64_generic.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_aarch64_generic.apk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_aarch64_generic.ipk",
+       "size": 30975,
+       "sha256": "37555fd232a5de1863a7ba77748bdc3eec6bd0662b11d6d0d2714efa04badc3e",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_aarch64_generic.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_aarch64_generic.ipk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+       "size": 50098,
+       "sha256": "fcd2184f8a1910e19bc4c68e2bff6ff1d6e97ec955e0475207504177da55c325",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+       "size": 50847,
+       "sha256": "77e0ddff14a17a9d6ee8e77a355ed30501b54bcccb96769faa2b7146b4e9adf6",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_arm_cortex-a9.apk",
+       "size": 50227,
+       "sha256": "480c2430444cf2e2cae1ade344855c0581692c1dc37141b682ac9e604cbf631b",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9.apk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_arm_cortex-a9.ipk",
+       "size": 51003,
+       "sha256": "95b3d67fd8aa82ea652e3c303240921f767b7d65f392d29a198a7b7c64dc85ac",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9.ipk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_arm_cortex-a9_neon.apk",
+       "size": 50193,
+       "sha256": "53e9c9a2142b9febfdbc349b257d55c55eac1a15a577da6e066bca67c5e52732",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9_neon.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9_neon.apk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_arm_cortex-a9_neon.ipk",
+       "size": 50962,
+       "sha256": "3a574363751d87c08fa554cfccbc6bf980b19a2cf3cedd0e62c6380e7a23fdc8",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9_neon.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9_neon.ipk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+       "size": 50197,
+       "sha256": "a47c6cf3e0da5701886e5d3839ec7c8232fa95264b1e07bab0ea417785c4aeff",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+       "size": 50971,
+       "sha256": "543fb9a0eae5696457c0e1db2690bfddce6fae9b7d080f8d97facd469bdec51d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_mips_24kc.apk",
+       "size": 33738,
+       "sha256": "f3c27b5f4d781226023ee41536092709406bc7af3396d9000e4dafbcc0b66166",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_mips_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_mips_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_mips_24kc.ipk",
+       "size": 34177,
+       "sha256": "96ad63f9e69c2bfffade53f678e03983e60d9189123363e5d479a502dff07b6d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_mips_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_mips_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_mipsel_24kc.apk",
+       "size": 33553,
+       "sha256": "851a9aceaf94a770b155b9d7914efa39970f5ad23d69be2d3a3ca1fb1bba20b0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_mipsel_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_mipsel_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_mipsel_24kc.ipk",
+       "size": 33858,
+       "sha256": "5927d21229af7ca89aed629e0a4f4d8a73af71aedb1cd5a1a4e30808f3671797",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_mipsel_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_mipsel_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_x86_64.apk",
+       "size": 33261,
+       "sha256": "c6f2dc9634602150be1d8f1040930ef54c463aa260e692f73351833506ef30f6",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_x86_64.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_x86_64.apk"
+       ]
+      },
+      {
+       "name": "steer-proxy-2.1.0-1_x86_64.ipk",
+       "size": 33510,
+       "sha256": "6a6e5095f9984886b86db1344f90851673da7d239028a68e599099d3cb6ea187",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-proxy-2.1.0-1_x86_64.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-proxy-2.1.0-1_x86_64.ipk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_aarch64_cortex-a53.apk",
+       "size": 30939,
+       "sha256": "3b1e1df598ee2bb35787dcae4a9e6f3eb8c6d373529f845c28a01dbd84fa5de7",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_aarch64_cortex-a53.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_aarch64_cortex-a53.apk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_aarch64_cortex-a53.ipk",
+       "size": 31066,
+       "sha256": "daad344dc6d7d148c11d9570ff174ed5f0760233e6b3f4616c930a24fa421e65",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_aarch64_cortex-a53.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_aarch64_cortex-a53.ipk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_aarch64_cortex-a72.apk",
+       "size": 29894,
+       "sha256": "817e5a4fa705d230c4bb05c210281054f851378f6e4b08a96eaf5ab80a2ca48a",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_aarch64_cortex-a72.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_aarch64_cortex-a72.apk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_aarch64_cortex-a72.ipk",
+       "size": 30049,
+       "sha256": "30977f8e16e96151bcf5544f6953d65a75e220f28ea8934bd2830ed572b6c5da",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_aarch64_cortex-a72.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_aarch64_cortex-a72.ipk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_aarch64_generic.apk",
+       "size": 29898,
+       "sha256": "4dc6f805af8013f750548e3d7b11da6c542c71ab5e95684ebc254f4127e05742",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_aarch64_generic.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_aarch64_generic.apk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_aarch64_generic.ipk",
+       "size": 30034,
+       "sha256": "f4765c91e2741a8163b3b0a3d545a3d97ab3cf44a9a22a3a48753ccc1065d5de",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_aarch64_generic.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_aarch64_generic.ipk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+       "size": 49546,
+       "sha256": "61edf0d7c023995791a26868a5bb3c8ca70db4882372fdd5d29d12dfdb358355",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+       "size": 50254,
+       "sha256": "8ed0ce924ef22ea80409290110ad9d87c9b7ee5c3a17e494f38c66ede94bee7d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_arm_cortex-a9.apk",
+       "size": 49586,
+       "sha256": "16260118c077f4b619ee71db03dff80680602946bb4d9c66286703e95e76ffad",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9.apk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_arm_cortex-a9.ipk",
+       "size": 50206,
+       "sha256": "4a75b46de3310c6196e058d30378135e24b924e70a25087b068815ac3f632080",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9.ipk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_arm_cortex-a9_neon.apk",
+       "size": 49596,
+       "sha256": "790fd829f8bd654e41a1174a1891a1f6c684996611866e8e7dfd92245778f24c",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9_neon.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9_neon.apk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_arm_cortex-a9_neon.ipk",
+       "size": 50292,
+       "sha256": "2231cf38b610a9aa0b29694277fdd030eca4f66ffd7315c5434baec7d047d51f",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9_neon.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9_neon.ipk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+       "size": 49603,
+       "sha256": "6148fdd0f6e9385d4007d39d704b36ce7a30a82b6de197f1ea776073e2a6bdb0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+       "size": 50305,
+       "sha256": "2dc5e73d12c84142b8f502d1a76e0e17cb3fab885f40d451dafde9de649759fe",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_mips_24kc.apk",
+       "size": 31693,
+       "sha256": "3d07e993d5c8e1bb69db72c5a384ce7f5e8dcfed06fdd87fd339cd9b166f1ffe",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_mips_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_mips_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_mips_24kc.ipk",
+       "size": 32099,
+       "sha256": "72ee500ecc3933c542dfcad149b50ad4475a12e535708ed0e3c5c8dd833a9960",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_mips_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_mips_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_mipsel_24kc.apk",
+       "size": 31658,
+       "sha256": "e3cd7b98744efdff4a85bec26912695d0aad883c368675533c10564895929fe7",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_mipsel_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_mipsel_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_mipsel_24kc.ipk",
+       "size": 31916,
+       "sha256": "b2d16dfad8850ab62325cb2dd2280849ecb2118cbd7dd08a4830dbfbed6a7594",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_mipsel_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_mipsel_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_x86_64.apk",
+       "size": 30916,
+       "sha256": "f2fdb02640e974608e2cb7f5b618ca10f2aa8c1534d7000a685e09c32fc6ed24",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_x86_64.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_x86_64.apk"
+       ]
+      },
+      {
+       "name": "steer-tgws-2.1.0-1_x86_64.ipk",
+       "size": 31051,
+       "sha256": "4d36b837bd3827373d8895872c02bd1846ce810bd6eac722a910a6e79aa06ff5",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-tgws-2.1.0-1_x86_64.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-tgws-2.1.0-1_x86_64.ipk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_aarch64_cortex-a53.apk",
+       "size": 51788,
+       "sha256": "ce2898b91536fc79dbe91c195cfe90b8d72dbe0a793b02256b8a356a6276ea99",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_aarch64_cortex-a53.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_aarch64_cortex-a53.apk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_aarch64_cortex-a53.ipk",
+       "size": 51989,
+       "sha256": "296f866fdaba23f95f4633411b25e3c19a52b1979b6805166381ce3f6200eaac",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_aarch64_cortex-a53.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_aarch64_cortex-a53.ipk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_aarch64_cortex-a72.apk",
+       "size": 48532,
+       "sha256": "afda733ac635a8ad73da3d0aafc97a9b502f8d378fd3435afcdd53d3045a5557",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_aarch64_cortex-a72.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_aarch64_cortex-a72.apk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_aarch64_cortex-a72.ipk",
+       "size": 48821,
+       "sha256": "e3a1d4ee2010fa01e2bcccfc49ed8493ca1520a33c67441f3cf698d2cd1a5784",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_aarch64_cortex-a72.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_aarch64_cortex-a72.ipk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_aarch64_generic.apk",
+       "size": 48393,
+       "sha256": "203b55dce4637fddc2f8c2ed5b695d854da4e88e33b52cc129745127020c72b9",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_aarch64_generic.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_aarch64_generic.apk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_aarch64_generic.ipk",
+       "size": 48627,
+       "sha256": "1e0a2a37449c41391bc097f334759515901e380c04cbc42c6a1a3448eebeb0dd",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_aarch64_generic.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_aarch64_generic.ipk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+       "size": 67571,
+       "sha256": "475054e4bf68fd54373a5ad50d0797666354b47226804a56fb2cdadf3bdba451",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+       "size": 68108,
+       "sha256": "3de88d39105619fe39d506df2378c330ad8e706ccd062b5026f1e16b45101395",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_arm_cortex-a9.apk",
+       "size": 67541,
+       "sha256": "2d9e3c8c865cf25f8d16b971acf9ba05756d01d4036c6a0df38e95f30fc55a35",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9.apk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_arm_cortex-a9.ipk",
+       "size": 68072,
+       "sha256": "fc43d0d674979aa2aa2aa3ac87a057ce38a9f3b6c6d7e7577972161101c6b80d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9.ipk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_arm_cortex-a9_neon.apk",
+       "size": 67540,
+       "sha256": "42d229eec83ff584fd759925c320cbfe577755a0938de8fd70dc85a4c9bfa7e5",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9_neon.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9_neon.apk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_arm_cortex-a9_neon.ipk",
+       "size": 68115,
+       "sha256": "883b91dfd273825ef9bea8d9126518d81372f12458f0a8f2289a9a9aae21da64",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9_neon.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9_neon.ipk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+       "size": 67546,
+       "sha256": "1d554c2da8a18304a5fa857b753454c9358bd82c81c41ab6461dbaf6154cfb18",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+       "size": 68123,
+       "sha256": "70c98c40b271bfa68d01f3c7472d4fb5e51f5c1617da03cb00c63ff5d62527b9",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_mips_24kc.apk",
+       "size": 50329,
+       "sha256": "3ca9f36d86b6b89efac172d59b6470892494c66add554baf4ad53107916b7ae2",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_mips_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_mips_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_mips_24kc.ipk",
+       "size": 50961,
+       "sha256": "c0860bce926ae420bc6953cdff83af1c6721a097bb08cff6d3654b2cc40151f7",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_mips_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_mips_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_mipsel_24kc.apk",
+       "size": 50328,
+       "sha256": "36699ef5f227a157eae8290a8924d8b8b10dfd82fc4d7845c97a75d80f7d1e44",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_mipsel_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_mipsel_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_mipsel_24kc.ipk",
+       "size": 50740,
+       "sha256": "47a95f3476eb14d36eb775bbc55d1cc8ff27f391f463d6c7d4da660a49703438",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_mipsel_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_mipsel_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_x86_64.apk",
+       "size": 50316,
+       "sha256": "95c8be134ab89485df771cee0f65c597eba90cc91dcd32ec067423fefbd44a72",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_x86_64.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_x86_64.apk"
+       ]
+      },
+      {
+       "name": "steer-vless-2.1.0-1_x86_64.ipk",
+       "size": 50812,
+       "sha256": "0621d5c628271658ba358c548555580bcbd0444359624cd4c7ed97bf7f01477c",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-vless-2.1.0-1_x86_64.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-vless-2.1.0-1_x86_64.ipk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_aarch64_cortex-a53.apk",
+       "size": 49734,
+       "sha256": "079fcb2fdb8baa6761bf3d97dcf908a6d7dc08ffb0d5b534f077e7860b402c55",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_aarch64_cortex-a53.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_aarch64_cortex-a53.apk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_aarch64_cortex-a53.ipk",
+       "size": 50302,
+       "sha256": "8817f9127bd74e7d876c1a7fc663e42101bd5b085fd26319e4f13459c70704cb",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_aarch64_cortex-a53.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_aarch64_cortex-a53.ipk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_aarch64_cortex-a72.apk",
+       "size": 47033,
+       "sha256": "9befa6fb2ed61088caba1f7779b4e2f4c2d62be2bd07db4f77848821d6d62782",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_aarch64_cortex-a72.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_aarch64_cortex-a72.apk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_aarch64_cortex-a72.ipk",
+       "size": 47486,
+       "sha256": "2fc2eb1a959aef951316bd7db0f071f1d01d2c4504b4b80f158df772e6151809",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_aarch64_cortex-a72.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_aarch64_cortex-a72.ipk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_aarch64_generic.apk",
+       "size": 46256,
+       "sha256": "b66c9654e65f5beb59fc911e857cf8740a12b4591b30f1ff8bcdb0d21a211d30",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_aarch64_generic.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_aarch64_generic.apk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_aarch64_generic.ipk",
+       "size": 46785,
+       "sha256": "627ef2a85096cd8e1c74c1fcb5bc8b3f54f5521a4247b1158fd0421c318b9391",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_aarch64_generic.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_aarch64_generic.ipk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+       "size": 66294,
+       "sha256": "7591924fccde6eb1c8803115824591c92bf01462d780393a3a9c40bf84de6c09",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+       "size": 67200,
+       "sha256": "4f2846fdeadbbe0597d58b04a435589da9dcde8d5f9daf3e6abdd774a37bc6b6",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_arm_cortex-a9.apk",
+       "size": 66613,
+       "sha256": "6de1dfa80d3cbf64e86b0ba8308ad78df7871f801d2a971d79b65622281cf885",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9.apk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_arm_cortex-a9.ipk",
+       "size": 67483,
+       "sha256": "eafbcf934722777a33a5aa9b3daffcf7d4c1659acc604e57b72990b7a34cf68d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9.ipk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_arm_cortex-a9_neon.apk",
+       "size": 66644,
+       "sha256": "a5eed182056556c1851692ef3e6743f8fe3552d9b9f19959bf72d5c6ae6b6863",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9_neon.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9_neon.apk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_arm_cortex-a9_neon.ipk",
+       "size": 67568,
+       "sha256": "afbbd14c52ae1469dd98ac4f4b0d5c40d8234f36359a4af6221fd676307eb428",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9_neon.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9_neon.ipk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+       "size": 66648,
+       "sha256": "b736ba3362b3a7c7c513afa705c5f4b275cf6a7be3e75f93ea5851b775fc5d23",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+       "size": 67571,
+       "sha256": "1c8fef5f716c1d6604cb88bc5397c921dd88863cd0cc72b607beb5ad7110fadf",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_mips_24kc.apk",
+       "size": 48849,
+       "sha256": "303d19859de282c386ebb67725870559bd0919aecfcc3c84fff7d82c764edf40",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_mips_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_mips_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_mips_24kc.ipk",
+       "size": 49568,
+       "sha256": "249e7073d882a358a1e111c8f79cd7c54440a1f7856e26c26d0f035cf5b85ec0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_mips_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_mips_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_mipsel_24kc.apk",
+       "size": 48743,
+       "sha256": "54dcd5f0c68201e7ebdb362fa70ddbd7a66804281d03440b1cc97abdc9601abf",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_mipsel_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_mipsel_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_mipsel_24kc.ipk",
+       "size": 49383,
+       "sha256": "ea19b1d882bebef3f4d6b79d9482d3def467739f7a204b456bae1c18b098b777",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_mipsel_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_mipsel_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_x86_64.apk",
+       "size": 50011,
+       "sha256": "7474b90fc2c9139512e57a6f921d25038f35c54003a8276c4e5a6cb46277f214",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_x86_64.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_x86_64.apk"
+       ]
+      },
+      {
+       "name": "steer-warpbox-2.1.0-1_x86_64.ipk",
+       "size": 50800,
+       "sha256": "9235337cd909dcc9f687c4f5aab289bdc4dc7a41e3e7d4ded9fce0250c38ce57",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-warpbox-2.1.0-1_x86_64.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-warpbox-2.1.0-1_x86_64.ipk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_aarch64_cortex-a53.apk",
+       "size": 53494,
+       "sha256": "d46a4754fdae7d8acae05696336a09e958ab99f8547eafb225d5eedadd8a37e4",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_aarch64_cortex-a53.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_aarch64_cortex-a53.apk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_aarch64_cortex-a53.ipk",
+       "size": 53440,
+       "sha256": "2bb0a177e90bffb81d8244ff767a0d057f027ffedf39f7fe8fa56920393e9857",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_aarch64_cortex-a53.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_aarch64_cortex-a53.ipk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_aarch64_cortex-a72.apk",
+       "size": 49865,
+       "sha256": "7e4d32a6c2531ef10bffd0773d69596f118e068d02627e7fd7ac23bcf37e3744",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_aarch64_cortex-a72.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_aarch64_cortex-a72.apk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_aarch64_cortex-a72.ipk",
+       "size": 50037,
+       "sha256": "cfff238345599752312e2099079d52906c464bf31783d8e5a7c10f133375d89d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_aarch64_cortex-a72.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_aarch64_cortex-a72.ipk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_aarch64_generic.apk",
+       "size": 49859,
+       "sha256": "074bc0f53ecc18f572c52bc1480684eefb2733c7f63479c7ec0acb5c316bafdc",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_aarch64_generic.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_aarch64_generic.apk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_aarch64_generic.ipk",
+       "size": 50110,
+       "sha256": "8c63b43ad0212446f0aabac9af1d00a0de8d6078459c9c000f97566f21f4d2ef",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_aarch64_generic.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_aarch64_generic.ipk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+       "size": 71466,
+       "sha256": "1b53b639849e90e885dee1de8a715f8429f5533075aeeeaae505aca1f6bbdfbd",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a7_neon-vfpv4.apk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+       "size": 71420,
+       "sha256": "b056966bd15e71c01f84a829ff4b8b67fd2cdfd7ea98807db1691931caf994b9",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_arm_cortex-a9.apk",
+       "size": 71706,
+       "sha256": "f8433f21012fac17b5ff05f282add71314d177edd11686535ec8287007a088ab",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9.apk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_arm_cortex-a9.ipk",
+       "size": 71815,
+       "sha256": "1f3f32b79ac3165295b1465fac7805fd37e0f86774939903690b75ae8a424c6d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9.ipk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_arm_cortex-a9_neon.apk",
+       "size": 71678,
+       "sha256": "c974e35909167e4201d6c2ff603347b0f97e7c35acc3ed14718e65efb668e2a2",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9_neon.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9_neon.apk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_arm_cortex-a9_neon.ipk",
+       "size": 71901,
+       "sha256": "afe484ba45e27715f067cb80e0a6043ac6be25450a5f8b9e13c0ff5b52a6739e",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9_neon.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9_neon.ipk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+       "size": 71681,
+       "sha256": "2e08465fbd6469e9ee7012731aeb034a1a0e281955e9ff57e84a1b5863251cce",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9_vfpv3-d16.apk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+       "size": 71867,
+       "sha256": "a05e102acb4c30eb4bfe7eff8fd3505db39f455a07c01f88d513ca09dacb107f",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_mips_24kc.apk",
+       "size": 90140,
+       "sha256": "783d01d372047e8c342b3305724bab658e90b81a0c537333908b33515bcb8eff",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_mips_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_mips_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_mips_24kc.ipk",
+       "size": 90679,
+       "sha256": "b12b1dbfcc3f11bb889857cea33c80fc268432da83a55b289949b50e21c191df",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_mips_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_mips_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_mipsel_24kc.apk",
+       "size": 89687,
+       "sha256": "a5f347aa3286a383f8af6048fba8a97079704128afae34ce2c99651e0f5b3e17",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_mipsel_24kc.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_mipsel_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_mipsel_24kc.ipk",
+       "size": 90237,
+       "sha256": "dae469a52570231941a7aec37b28df9ea773583b4cdcefb333dcb566733acad0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_mipsel_24kc.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_mipsel_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_x86_64.apk",
+       "size": 50583,
+       "sha256": "51ae862219918c6012f1eb76fd2798d8c0622c5634da2295ff7eac5d26e4acdd",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_x86_64.apk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_x86_64.apk"
+       ]
+      },
+      {
+       "name": "steer-xsteer-2.1.0-1_x86_64.ipk",
+       "size": 50989,
+       "sha256": "05e01d1f33fb3604ef75cc5a3efa1b3a06a1ba7d18717ec1c68d6d3978be8dfa",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-v2.1.0/steer-xsteer-2.1.0-1_x86_64.ipk",
+        "https://github.com/splify2/steer/releases/download/v2.1.0/steer-xsteer-2.1.0-1_x86_64.ipk"
+       ]
+      }
+     ]
+    },
     {
      "version": "2.0.5",
      "name": "steer 2.0.5",
