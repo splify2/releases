@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-15T01:18:00Z",
+ "updated": "2026-10-15T01:54:22Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
@@ -10516,9 +10516,209 @@
   "steer-box-connector": {
    "title": "steer-box-connector",
    "repo": "splify2/steer-box-connector",
-   "stable": "2.0.4",
+   "stable": "2.0.5",
    "prerelease": null,
    "versions": [
+    {
+     "version": "2.0.5",
+     "name": "steer-box-connector 2.0.5",
+     "channel": "stable",
+     "date": "2026-10-15",
+     "tag": "steer-box-connector-v2.0.5",
+     "source": "https://github.com/splify2/steer-box-connector/releases/tag/v2.0.5",
+     "changelog": "changelogs/steer-box-connector/2.0.5.md",
+     "assets": [
+      {
+       "name": "steer-box-connector-2.0.5-1_aarch64_cortex-a53.apk",
+       "size": 124042,
+       "sha256": "710a8883e5a7affe425f916deacb0d006ef42a5b22b7aeac6bc3fa0f2b4c7230",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_aarch64_cortex-a53.apk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_aarch64_cortex-a53.apk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_aarch64_cortex-a53.ipk",
+       "size": 124419,
+       "sha256": "e129706af41ca87bb421f23caa21b6437cccb37824394eef58616e5798fac33e",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_aarch64_cortex-a53.ipk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_aarch64_cortex-a53.ipk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_aarch64_cortex-a72.apk",
+       "size": 120611,
+       "sha256": "478a1e6e971715ef9465a5db2f55e8593ccae9717ee0b88d22552645ca32a470",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_aarch64_cortex-a72.apk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_aarch64_cortex-a72.apk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_aarch64_cortex-a72.ipk",
+       "size": 121176,
+       "sha256": "2dfc21940acf7d3e6cb27bd451f822d83d45f0c27a576fa54df1033ebec3f22b",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_aarch64_cortex-a72.ipk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_aarch64_cortex-a72.ipk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_aarch64_generic.apk",
+       "size": 120958,
+       "sha256": "2ea1cfcd554032d3443bb6f64dd1629661b028520298c4af433b6a3db7a6a09e",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_aarch64_generic.apk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_aarch64_generic.apk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_aarch64_generic.ipk",
+       "size": 121417,
+       "sha256": "b3d5a576d1bcef3e7924930402c1de878e7d6e0a81be092567a4daff2b938804",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_aarch64_generic.ipk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_aarch64_generic.ipk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_arm_cortex-a7_neon-vfpv4.apk",
+       "size": 143003,
+       "sha256": "bb9c7d881fa3b108b8f623ac75d46826f9ea66eb5bf4c56cf32f1e49563cafa6",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a7_neon-vfpv4.apk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a7_neon-vfpv4.apk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_arm_cortex-a7_neon-vfpv4.ipk",
+       "size": 144170,
+       "sha256": "e0b027b4fa6faace8e933900ecf9e29ff224fdcb1bfee1413effa5bfdfe4c8ba",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a7_neon-vfpv4.ipk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a7_neon-vfpv4.ipk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_arm_cortex-a9.apk",
+       "size": 142775,
+       "sha256": "9ca1ae44e1f6aef921bda440b2d321571c9fa7b4103f022a8bdb75ca9cc640e4",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9.apk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9.apk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_arm_cortex-a9.ipk",
+       "size": 143800,
+       "sha256": "11a4f0430d0d744b1d463a6b2bee50222612adbf7c2aaa960f1abca67ae8294f",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9.ipk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9.ipk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_arm_cortex-a9_neon.apk",
+       "size": 142770,
+       "sha256": "c835283ac71d04ba38580b75652e95863847bcca4c05277011ec0577568c0c01",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9_neon.apk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9_neon.apk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_arm_cortex-a9_neon.ipk",
+       "size": 143911,
+       "sha256": "9ea349f676931ac2d7bc24da54e3be32ba5d22bb8a62c6ef50e4d815e7e19cd4",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9_neon.ipk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9_neon.ipk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_arm_cortex-a9_vfpv3-d16.apk",
+       "size": 142773,
+       "sha256": "b45887abea109b343b5424a76a4bf50d77c5a2af12c7749cdf0d042e64f1e6a0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9_vfpv3-d16.apk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9_vfpv3-d16.apk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_arm_cortex-a9_vfpv3-d16.ipk",
+       "size": 143894,
+       "sha256": "06351e040cfdc979e54ff10cde4a7477a4a1ee16b9ac9e8bfe00085c0d974d7c",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9_vfpv3-d16.ipk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_arm_cortex-a9_vfpv3-d16.ipk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_mips_24kc.apk",
+       "size": 170074,
+       "sha256": "14e00641a81169d8d572e7f12158ad4c3b84a72eea5bc07f9138982702973899",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_mips_24kc.apk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_mips_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_mips_24kc.ipk",
+       "size": 171321,
+       "sha256": "ee3f7856af4b71cb95bcb8e3976c648b148569b61c3a3f26f6baf61a23154c7d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_mips_24kc.ipk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_mips_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_mipsel_24kc.apk",
+       "size": 169124,
+       "sha256": "a38562a2cfe7bbe853942f46e22462ef545bfa585483a6dd9377abda02bd1770",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_mipsel_24kc.apk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_mipsel_24kc.apk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_mipsel_24kc.ipk",
+       "size": 169889,
+       "sha256": "f1f8b35b9428779cb314905bfb70741ea0dbb8883487eafa15fb8253ae355862",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_mipsel_24kc.ipk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_mipsel_24kc.ipk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_x86_64.apk",
+       "size": 124795,
+       "sha256": "14f3531ffd90a3c516804b0351922277a6fd1cde367cd264894a8acc8c0f29d1",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_x86_64.apk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_x86_64.apk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-2.0.5-1_x86_64.ipk",
+       "size": 125406,
+       "sha256": "0a7f47f047b6a5b6cb038e22eb7da7216399c32cfc3a4dd714c7257fc45c83d5",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-2.0.5-1_x86_64.ipk",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-2.0.5-1_x86_64.ipk"
+       ]
+      },
+      {
+       "name": "steer-box-connector-test-2.0.5.tar.gz",
+       "size": 27994119,
+       "sha256": "eaf8eb07518d7c7d28281dce6f61211ef656413186351016ffed3f892ee163e4",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.5/steer-box-connector-test-2.0.5.tar.gz",
+        "https://github.com/splify2/steer-box-connector/releases/download/v2.0.5/steer-box-connector-test-2.0.5.tar.gz"
+       ]
+      }
+     ]
+    },
     {
      "version": "2.0.4",
      "name": "steer-box-connector 2.0.4",
