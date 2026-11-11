@@ -10,7 +10,7 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PRODUCTS = {"steer", "splify2", "steer-box-connector", "xsteer"}
+PRODUCTS = {"steer", "splify2", "steer-box-connector", "xsteer", "andromeda", "splify2-desktop"}
 VERSION = re.compile(r"^\d+(\.\d+){1,3}(-[0-9A-Za-z.]+)?$")
 SHA = re.compile(r"^[0-9a-f]{64}$")
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")

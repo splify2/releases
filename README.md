@@ -1,7 +1,7 @@
 # splify2 releases
 
 Актуальные версии проектов [splify2](https://github.com/splify2): ядро steer, панель splify2,
-steer-box-connector и xsteer. Здесь лежат пакеты каждой версии, её список изменений и
+steer-box-connector, xsteer, Andromeda и приложения для компьютера. Здесь лежат пакеты каждой версии, её список изменений и
 `version.json` — один файл, по которому установщик, роутер и [сайт](https://splify2.github.io/releases/)
 узнают, что сейчас выпущено.
 
@@ -11,6 +11,8 @@ steer-box-connector и xsteer. Здесь лежат пакеты каждой �
 | `splify2` — панель LuCI | [splify2/splify2](https://github.com/splify2/splify2) |
 | `steer-box-connector` — sing-box для podkop и forkop | [splify2/steer-box-connector](https://github.com/splify2/steer-box-connector) |
 | `xsteer` — хаб и клиенты | [splify2/xsteer](https://github.com/splify2/xsteer) |
+| `andromeda` — интерфейс панели, плагин splify2 | [splify2/andromeda](https://github.com/splify2/andromeda) |
+| `splify2-desktop` — приложение для компьютера | [splify2/splify2-desktop](https://github.com/splify2/splify2-desktop) |
 
 ## Где что
 

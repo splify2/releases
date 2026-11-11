@@ -33,6 +33,8 @@ PRODUCTS = {
     "splify2": ("splify2", "splify2/splify2"),
     "steer-box-connector": ("steer-box-connector", "splify2/steer-box-connector"),
     "xsteer": ("xsteer", "splify2/xsteer"),
+    "andromeda": ("Andromeda", "splify2/andromeda"),
+    "splify2-desktop": ("splify2 Desktop", "splify2/splify2-desktop"),
 }
 # Сколько стабильных версий продукта держит version.json. Старые выпуски в GitHub остаются, из
 # перечня уходят: роутер выбирает среди актуальных, а не среди всей истории.
