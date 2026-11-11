@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-11T10:09:03Z",
+ "updated": "2026-11-11T10:29:17Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
@@ -11808,9 +11808,29 @@
   "splify2-desktop": {
    "title": "splify2 Desktop",
    "repo": "splify2/splify2-desktop",
-   "stable": "0.1.22",
+   "stable": "0.1.23",
    "prerelease": null,
    "versions": [
+    {
+     "version": "0.1.23",
+     "name": "splify2 Desktop 0.1.23",
+     "channel": "stable",
+     "date": "2026-11-11",
+     "tag": "splify2-desktop-v0.1.23",
+     "source": "https://github.com/splify2/splify2-desktop/releases/tag/v0.1.23",
+     "changelog": "changelogs/splify2-desktop/0.1.23.md",
+     "assets": [
+      {
+       "name": "splify2-desktop-0.1.23-setup-x64.exe",
+       "size": 144434192,
+       "sha256": "0aaf570fddfbd8002b3106051957165083d9904f18fabe31762c872b5820a482",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-desktop-v0.1.23/splify2-desktop-0.1.23-setup-x64.exe",
+        "https://github.com/splify2/splify2-desktop/releases/download/v0.1.23/splify2-desktop-0.1.23-setup-x64.exe"
+       ]
+      }
+     ]
+    },
     {
      "version": "0.1.22",
      "name": "splify2 Desktop 0.1.22",
