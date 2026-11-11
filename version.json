@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-11T11:28:35Z",
+ "updated": "2026-11-11T15:48:40Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
@@ -10293,9 +10293,65 @@
   "splify2": {
    "title": "splify2",
    "repo": "splify2/splify2",
-   "stable": "26.11.1",
+   "stable": "26.11.2",
    "prerelease": null,
    "versions": [
+    {
+     "version": "26.11.2",
+     "name": "splify2 26.11.2",
+     "channel": "stable",
+     "date": "2026-11-11",
+     "tag": "splify2-v26.11.2",
+     "source": "https://github.com/splify2/splify2/releases/tag/v26.11.2",
+     "changelog": "changelogs/splify2/26.11.2.md",
+     "assets": [
+      {
+       "name": "install.sh",
+       "size": 63741,
+       "sha256": "13c7d94ed3c5b4a450a7ce0282185700b06b4f5b7e87baa6a72f47f7a87b10ef",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.11.2/install.sh",
+        "https://github.com/splify2/splify2/releases/download/v26.11.2/install.sh"
+       ]
+      },
+      {
+       "name": "luci-app-splify2-26.11.2-1_all.ipk",
+       "size": 874919,
+       "sha256": "9f2f180774868cf40d4bc0cd3f2f87a2e4e26f09d2b07bb98cff583bf0f84b53",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.11.2/luci-app-splify2-26.11.2-1_all.ipk",
+        "https://github.com/splify2/splify2/releases/download/v26.11.2/luci-app-splify2-26.11.2-1_all.ipk"
+       ]
+      },
+      {
+       "name": "luci-app-splify2-26.11.2-1_noarch.apk",
+       "size": 872182,
+       "sha256": "9e69e49eb61797259ca08b686d0677f7ffa035184d4cf4cf49698d8193d4381d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.11.2/luci-app-splify2-26.11.2-1_noarch.apk",
+        "https://github.com/splify2/splify2/releases/download/v26.11.2/luci-app-splify2-26.11.2-1_noarch.apk"
+       ]
+      },
+      {
+       "name": "splify2-26.11.2-1_all.ipk",
+       "size": 874919,
+       "sha256": "9f2f180774868cf40d4bc0cd3f2f87a2e4e26f09d2b07bb98cff583bf0f84b53",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.11.2/splify2-26.11.2-1_all.ipk",
+        "https://github.com/splify2/splify2/releases/download/v26.11.2/splify2-26.11.2-1_all.ipk"
+       ]
+      },
+      {
+       "name": "splify2-26.11.2-1_noarch.apk",
+       "size": 872182,
+       "sha256": "9e69e49eb61797259ca08b686d0677f7ffa035184d4cf4cf49698d8193d4381d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.11.2/splify2-26.11.2-1_noarch.apk",
+        "https://github.com/splify2/splify2/releases/download/v26.11.2/splify2-26.11.2-1_noarch.apk"
+       ]
+      }
+     ]
+    },
     {
      "version": "26.11.1",
      "name": "26.11.1 Cigar",
