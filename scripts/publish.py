@@ -105,6 +105,19 @@ def update_json(path, a, assets, tag):
     return sorted(set(x["version"] for x in vs) - keep)
 
 
+def purge_cdn():
+    """Сбросить копию version.json на jsDelivr: это запасной адрес перечня у панели, и без сброса он до
+    двенадцати часов отдаёт прежний файл — роутер, которому закрыт raw.githubusercontent.com, выпуска не видит.
+    Не вышло — публикация от этого не проваливается, копия обновится сама."""
+    import urllib.request
+    try:
+        with urllib.request.urlopen("https://purge.jsdelivr.net/gh/splify2/releases@main/version.json", timeout=30) as r:
+            r.read()
+        print("publish: копия на jsDelivr сброшена")
+    except Exception as e:  # сеть, отказ сервиса — не повод ронять выпуск
+        print(f"publish: копию на jsDelivr сбросить не вышло ({e}) — обновится сама")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--product", required=True, choices=sorted(PRODUCTS))
@@ -165,6 +178,7 @@ def main():
             return
         if run("git", "push", "-q", check=False).returncode == 0:
             print(f"publish: {tag} опубликован")
+            purge_cdn()
             # Сайт (splify2.github.io/releases/) и сам сверяет version.json раз в час; толчок —
             # чтобы выпуск появился сразу. Нужен доступ токена к splify2/splify2.github.io; без
             # него сайт догонит по расписанию, публикация от этого не проваливается.
