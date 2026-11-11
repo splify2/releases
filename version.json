@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-11T08:36:52Z",
+ "updated": "2026-11-11T08:46:39Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
@@ -11743,6 +11743,34 @@
        "urls": [
         "https://github.com/splify2/releases/releases/download/andromeda-v26.11.0/andromeda-26.11.0-all.s2p",
         "https://github.com/splify2/andromeda/releases/download/v26.11.0/andromeda-26.11.0-all.s2p"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "splify2-desktop": {
+   "title": "splify2 Desktop",
+   "repo": "splify2/splify2-desktop",
+   "stable": "0.1.22",
+   "prerelease": null,
+   "versions": [
+    {
+     "version": "0.1.22",
+     "name": "splify2 Desktop 0.1.22",
+     "channel": "stable",
+     "date": "2026-11-11",
+     "tag": "splify2-desktop-v0.1.22",
+     "source": "https://github.com/splify2/splify2-desktop/releases/tag/v0.1.22",
+     "changelog": "changelogs/splify2-desktop/0.1.22.md",
+     "assets": [
+      {
+       "name": "splify2-desktop-0.1.22-setup-x64.exe",
+       "size": 144434192,
+       "sha256": "db42df78265aa69226ad3a7cc6110dceeb0e678dd80f338161c4e0cb2388b27d",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-desktop-v0.1.22/splify2-desktop-0.1.22-setup-x64.exe",
+        "https://github.com/splify2/splify2-desktop/releases/download/v0.1.22/splify2-desktop-0.1.22-setup-x64.exe"
        ]
       }
      ]
