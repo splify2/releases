@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-15T02:45:18Z",
+ "updated": "2026-11-11T08:36:52Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
@@ -11715,6 +11715,34 @@
        "urls": [
         "https://github.com/splify2/releases/releases/download/steer-box-connector-v2.0.0/steer-box-connector-test-2.0.0.tar.gz",
         "https://github.com/splify2/steer-box-connector/releases/download/v2.0.0/steer-box-connector-test-2.0.0.tar.gz"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "andromeda": {
+   "title": "Andromeda",
+   "repo": "splify2/andromeda",
+   "stable": "26.11.0",
+   "prerelease": null,
+   "versions": [
+    {
+     "version": "26.11.0",
+     "name": "Andromeda 26.11.0",
+     "channel": "stable",
+     "date": "2026-11-11",
+     "tag": "andromeda-v26.11.0",
+     "source": "https://github.com/splify2/andromeda/releases/tag/v26.11.0",
+     "changelog": "changelogs/andromeda/26.11.0.md",
+     "assets": [
+      {
+       "name": "andromeda-26.11.0-all.s2p",
+       "size": 345933,
+       "sha256": "a261e2722d0f5bcde1eafc7fca8b8174d317f2b131db5c2742eb6338510c9ca0",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/andromeda-v26.11.0/andromeda-26.11.0-all.s2p",
+        "https://github.com/splify2/andromeda/releases/download/v26.11.0/andromeda-26.11.0-all.s2p"
        ]
       }
      ]
