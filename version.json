@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-13T12:46:56Z",
+ "updated": "2026-11-13T13:00:15Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
@@ -9915,9 +9915,65 @@
   "splify2": {
    "title": "splify2",
    "repo": "splify2/splify2",
-   "stable": "26.11.4",
+   "stable": "26.11.5",
    "prerelease": null,
    "versions": [
+    {
+     "version": "26.11.5",
+     "name": "splify2 26.11.5",
+     "channel": "stable",
+     "date": "2026-11-13",
+     "tag": "splify2-v26.11.5",
+     "source": "https://github.com/splify2/splify2/releases/tag/v26.11.5",
+     "changelog": "changelogs/splify2/26.11.5.md",
+     "assets": [
+      {
+       "name": "install.sh",
+       "size": 65368,
+       "sha256": "9f697d6781127ca803cdecb981015bfb1f6115b5337b3ef1d72645c3058ffae8",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.11.5/install.sh",
+        "https://github.com/splify2/splify2/releases/download/v26.11.5/install.sh"
+       ]
+      },
+      {
+       "name": "luci-app-splify2-26.11.5-1_all.ipk",
+       "size": 881456,
+       "sha256": "77d4f611ca99d55b279e50890c6af29e2992063eea498cbc9f98c293f159df85",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.11.5/luci-app-splify2-26.11.5-1_all.ipk",
+        "https://github.com/splify2/splify2/releases/download/v26.11.5/luci-app-splify2-26.11.5-1_all.ipk"
+       ]
+      },
+      {
+       "name": "luci-app-splify2-26.11.5-1_noarch.apk",
+       "size": 878279,
+       "sha256": "9447c0765846d91cdf7e76c01d5f4ee3d6b78a41750c7d05d16bb4033e5d45c8",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.11.5/luci-app-splify2-26.11.5-1_noarch.apk",
+        "https://github.com/splify2/splify2/releases/download/v26.11.5/luci-app-splify2-26.11.5-1_noarch.apk"
+       ]
+      },
+      {
+       "name": "splify2-26.11.5-1_all.ipk",
+       "size": 881456,
+       "sha256": "77d4f611ca99d55b279e50890c6af29e2992063eea498cbc9f98c293f159df85",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.11.5/splify2-26.11.5-1_all.ipk",
+        "https://github.com/splify2/splify2/releases/download/v26.11.5/splify2-26.11.5-1_all.ipk"
+       ]
+      },
+      {
+       "name": "splify2-26.11.5-1_noarch.apk",
+       "size": 878279,
+       "sha256": "9447c0765846d91cdf7e76c01d5f4ee3d6b78a41750c7d05d16bb4033e5d45c8",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/splify2-v26.11.5/splify2-26.11.5-1_noarch.apk",
+        "https://github.com/splify2/splify2/releases/download/v26.11.5/splify2-26.11.5-1_noarch.apk"
+       ]
+      }
+     ]
+    },
     {
      "version": "26.11.4",
      "name": "splify2 26.11.4",
@@ -10328,44 +10384,6 @@
        "urls": [
         "https://github.com/splify2/releases/releases/download/splify2-v26.10.0/luci-app-splify2-26.10.0-1_noarch.apk",
         "https://github.com/splify2/splify2/releases/download/v26.10.0/luci-app-splify2-26.10.0-1_noarch.apk"
-       ]
-      }
-     ]
-    },
-    {
-     "version": "26.9.2",
-     "name": "splify2 26.9.2",
-     "channel": "stable",
-     "date": "2026-09-22",
-     "tag": "splify2-v26.9.2",
-     "source": "https://github.com/splify2/splify2/releases/tag/v26.9.2",
-     "changelog": "changelogs/splify2/26.9.2.md",
-     "assets": [
-      {
-       "name": "install.sh",
-       "size": 31123,
-       "sha256": "57f5d074a52d690b511587ac183e9c184d8abedb333d29fe3c0292395f96ee01",
-       "urls": [
-        "https://github.com/splify2/releases/releases/download/splify2-v26.9.2/install.sh",
-        "https://github.com/splify2/splify2/releases/download/v26.9.2/install.sh"
-       ]
-      },
-      {
-       "name": "luci-app-splify2-26.9.2-1_all.ipk",
-       "size": 507962,
-       "sha256": "15138f78c197f090f61cd859bec6fef2f82f5c4534e91793ec36cfa71e89d760",
-       "urls": [
-        "https://github.com/splify2/releases/releases/download/splify2-v26.9.2/luci-app-splify2-26.9.2-1_all.ipk",
-        "https://github.com/splify2/splify2/releases/download/v26.9.2/luci-app-splify2-26.9.2-1_all.ipk"
-       ]
-      },
-      {
-       "name": "luci-app-splify2-26.9.2-1_noarch.apk",
-       "size": 501628,
-       "sha256": "15574e17d2e583b327ae87ebde77b0ea9b2cef3cfe78ed327ac231a53c727d84",
-       "urls": [
-        "https://github.com/splify2/releases/releases/download/splify2-v26.9.2/luci-app-splify2-26.9.2-1_noarch.apk",
-        "https://github.com/splify2/splify2/releases/download/v26.9.2/luci-app-splify2-26.9.2-1_noarch.apk"
        ]
       }
      ]
