@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-13T13:43:02Z",
+ "updated": "2026-11-27T16:55:12Z",
  "products": {
   "steer": {
    "title": "Ядро steer",
@@ -10553,9 +10553,29 @@
   "andromeda": {
    "title": "Andromeda",
    "repo": "splify2/andromeda",
-   "stable": "26.11.1",
+   "stable": "26.11.2",
    "prerelease": null,
    "versions": [
+    {
+     "version": "26.11.2",
+     "name": "Andromeda 26.11.2",
+     "channel": "stable",
+     "date": "2026-11-27",
+     "tag": "andromeda-v26.11.2",
+     "source": "https://github.com/splify2/andromeda/releases/tag/v26.11.2",
+     "changelog": "changelogs/andromeda/26.11.2.md",
+     "assets": [
+      {
+       "name": "andromeda-26.11.2-all.s2p",
+       "size": 346664,
+       "sha256": "949577c393b08054c1bcad89e060504d0503e7fac9ef84c6afdf0716cb5ab218",
+       "urls": [
+        "https://github.com/splify2/releases/releases/download/andromeda-v26.11.2/andromeda-26.11.2-all.s2p",
+        "https://github.com/splify2/andromeda/releases/download/v26.11.2/andromeda-26.11.2-all.s2p"
+       ]
+      }
+     ]
+    },
     {
      "version": "26.11.1",
      "name": "Andromeda 26.11.1",
